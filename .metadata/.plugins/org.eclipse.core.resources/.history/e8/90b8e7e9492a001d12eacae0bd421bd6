@@ -15,7 +15,6 @@ int main(void) {
 
 	printf("Hola lautaro");
 		printf("Hola lautaro");
-		//holalaucha
 
 	return 0;
 }
