@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int numeroUno;
+	int numeroDos;
+	char operador = '2';
+	int resultado;
+
+	int hola = operador + 2;
+
+	printf("%d", hola);
+	return 0;
+}
