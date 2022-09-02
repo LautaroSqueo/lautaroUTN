@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "calculos.h"
 
 int main(void) {
 	setbuf(stdout, NULL);
@@ -40,5 +40,3 @@ int main(void) {
 
 	return 0;
 }
-
-

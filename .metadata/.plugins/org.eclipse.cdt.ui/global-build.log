@@ -1,4 +1,2 @@
-21:32:34 **** Incremental Build of configuration Debug for project tercerClase ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tercerClase.o" "..\\src\\tercerClase.c" 
-gcc -o tercerClase.exe "src\\tercerClase.o" 
+Info: Nothing to build for bibliotecas
+Info: Nothing to build for bibliotecas
