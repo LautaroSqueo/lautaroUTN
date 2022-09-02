@@ -1,2 +1,6 @@
-Info: Nothing to build for bibliotecas
-Info: Nothing to build for bibliotecas
+22:42:45 **** Incremental Build of configuration Debug for project ejercicioDosTemaDos ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDosTemaDos.o" "..\\src\\ejercicioDosTemaDos.c" 
+gcc -o ejercicioDosTemaDos.exe "src\\ejercicioDosTemaDos.o" 
+Info: Nothing to build for ejercicioDosTemaDos
+Info: Nothing to build for ejercicioDosTemaDos
