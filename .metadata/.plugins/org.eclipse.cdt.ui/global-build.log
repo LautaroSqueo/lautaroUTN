@@ -1,6 +1,18 @@
-22:42:45 **** Incremental Build of configuration Debug for project ejercicioDosTemaDos ****
+21:35:27 **** Incremental Build of configuration Debug for project Arrays ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDosTemaDos.o" "..\\src\\ejercicioDosTemaDos.c" 
-gcc -o ejercicioDosTemaDos.exe "src\\ejercicioDosTemaDos.o" 
-Info: Nothing to build for ejercicioDosTemaDos
-Info: Nothing to build for ejercicioDosTemaDos
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Arrays.o" "..\\src\\Arrays.c" 
+..\src\Arrays.c: In function 'main':
+..\src\Arrays.c:19:3: warning: implicit declaration of function 'imprimeMensaje' [-Wimplicit-function-declaration]
+   imprimeMensaje("No anduvo la carga de datos del array");
+   ^~~~~~~~~~~~~~
+..\src\Arrays.c:25:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retorno = cargaAleatoriaArray;
+          ^
+..\src\Arrays.c: At top level:
+..\src\Arrays.c:30:6: warning: conflicting types for 'imprimeMensaje'
+ void imprimeMensaje(char mensaje[]){
+      ^~~~~~~~~~~~~~
+..\src\Arrays.c:19:3: note: previous implicit declaration of 'imprimeMensaje' was here
+   imprimeMensaje("No anduvo la carga de datos del array");
+   ^~~~~~~~~~~~~~
+gcc -o Arrays.exe "src\\Arrays.o" 
